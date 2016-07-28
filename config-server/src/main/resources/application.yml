@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rooanlee/SpringCloud.git
+          search-paths: config-report
+          username: rooanlee
+          password: wj173749
+server:
+  port: 7001
